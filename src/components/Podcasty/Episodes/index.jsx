@@ -1,5 +1,5 @@
 
-export const Episodes = (props) => {
+export const Episode = (props) => {
   return (
     <div className="episodes-list">
       <div className="episode">

@@ -1,4 +1,4 @@
-import { Episodes } from './Episodes';
+import { Episode } from './Episodes';
 
 const episodes = [
   { num: 126, title: 'Robot, který snědl koblihu', guest: 'Radovan Siwek' },
@@ -17,7 +17,7 @@ export const Podcasty = (props) => {
     <div className="App">
       <h1>Podcast Epizody</h1>
       {episodes.map((episode) => (
-        <Episodes
+        <Episode
           key={episode.num}
           num={episode.num}
           title={episode.title}
